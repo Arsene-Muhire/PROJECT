@@ -1,4 +1,4 @@
-# ✈️ Flight Booking and Management Digital Tool
+![Tables Creation](https://github.com/user-attachments/assets/418a8963-36a8-43be-97be-2e823a87b03c)<img width="596" height="885" alt="Picture1" src="https://github.com/user-attachments/assets/da1a9762-028a-4ce3-9c5d-8ebca79e608b" /># ✈️ Flight Booking and Management Digital Tool
 
 
 **Author:** MURAHIRA MUHIRE Arsene  
@@ -115,7 +115,8 @@ Database Name: wed_27656_arsene_flightBooking_db
 Admin User: arsene
 Tablespaces: DATA, INDEXES, TEMPORARY
 
-![alt text](<PROJECT/PHASE 3/Picture1.png>)
+
+<img width="596" height="885" alt="Picture1" src="https://github.com/user-attachments/assets/2efb71b3-b55d-47f4-bbdc-4e90273ec146" />
 
 
 ## Normalization:
@@ -145,8 +146,9 @@ ALTER SESSION SET CONTAINER = WED_27656_arsene_FlightMS_DB;
 
 
 ```
+![PDB CREATION](https://github.com/user-attachments/assets/dd173ac7-b986-43b7-b585-c46a7bc368af)
 
-![alt text](<PROJECT/PHASE 4/PDB CREATION.jpg>)
+
 
 
 ---
@@ -171,7 +173,8 @@ TEMPFILE 'flight_temp01.dbf' SIZE 200M
 AUTOEXTEND ON NEXT 20M MAXSIZE 1G;
 ```
 
-![alt text](<PROJECT/PHASE 4/TABLE SPACE.jpg>)
+
+![TABLE SPACE](https://github.com/user-attachments/assets/3b4e4256-ffa6-49ca-8c3a-64905d8a20cd)
 
 ---
 
@@ -233,13 +236,15 @@ CREATE TABLE FLIGHT_HISTORY (
 );
 ```
 
-![alt text](<PROJECT/PHASE 5/Tables Creation.jpg>)
+
+![Tables Creation](https://github.com/user-attachments/assets/5d9efe7d-4b35-4ff5-b13f-796ce31796c5)
 
 ---
 #### INSERTION OF DATA
 
 
-![alt text](<PROJECT/PHASE 5/INSERTION OF DATAS.jpg>)
+
+![INSERTION OF DATAS](https://github.com/user-attachments/assets/11432f98-7b6d-4455-a67e-b1bbd32ba1bb)
 
 ---
 
@@ -251,16 +256,16 @@ SELECT * FROM PASSENGERS
 
 ```
 
-![alt text](<PROJECT/PHASE 5/SELECT(PASSENGERS).jpg>)
 
 
+![SELECT(PASSENGERS)](https://github.com/user-attachments/assets/4da1e7b9-7123-48e1-949a-f2da8bfb1c9c)
 
 ```sql
 SELECT * FROM FLIGHTS;
 
 ```
 
-![alt text](<PROJECT/PHASE 5/SELECT(FLIGHTS).jpg>)
+![SELECT(FLIGHTS)](https://github.com/user-attachments/assets/fabd1f1d-a7b0-4cec-8188-34f2efbd813b)
 
 ```sql
 
@@ -268,7 +273,8 @@ SELECT * FROM BOOKINGS
 
 ```
 
-![alt text](<PROJECT/PHASE 5/SELECT(BOOKINGS).jpg>)
+![SELECT(BOOKINGS)](https://github.com/user-attachments/assets/443379fb-6334-442c-affe-26ab9d0e9656)
+
 
 ```sql
 
@@ -278,7 +284,8 @@ SELECT * FROM PAYMENTS
 
 
 
-![alt text](<PROJECT/PHASE 5/SELECT(PAYMENTS).jpg>)
+
+![SELECT(PAYMENTS)](https://github.com/user-attachments/assets/1c3c4062-476f-42f9-b0e1-ea30f5a4cc72)
 
 
 ```sql
@@ -289,9 +296,9 @@ SELECT * FROM FLIGHT_HISTORY
 
 ```
 
-![alt text](<PROJECT/PHASE 5/SELECT(FLIGHT HISTORY).jpg>)
 
 
+![SELECT(FLIGHT HISTORY)](https://github.com/user-attachments/assets/9eb2e527-acde-44fa-822b-f957ed476ee7)
 
 
 ### Check Foreign Key Relationships
@@ -306,8 +313,10 @@ WHERE NOT EXISTS (
 );
 -- Expected: 0
 ```
-![alt text](<PROJECT/PHASE 5/FK VERIFCATION.jpg>)
 
+
+
+![FK VERIFCATION](https://github.com/user-attachments/assets/b78f8c11-3451-46b0-895e-1e836ad13228)
 
 
 ---
@@ -323,14 +332,17 @@ HAVING COUNT(*) > 1;
 -- Expected: No rows (all IDs are unique)
 
 ```
+![Duplicate key](https://github.com/user-attachments/assets/90f87b86-0145-4dc5-b160-8cd37bc14096)
 
-![alt text](<PROJECT/PHASE 5/Duplicate key.jpg>)
+
 
 
 ##### Finally completeness
 
 
-![alt text](<PROJECT/PHASE 5/Data completeness.jpg>)
+![Data completeness](https://github.com/user-attachments/assets/d8e4ec97-1aa9-409d-b89a-7fc86102d150)
+
+
 
 
 ## 🔧 PHASE VI:  Database Interaction & Transaction 
@@ -1837,4 +1849,5 @@ PROMPT - Check audit_log table for detailed operation history
 PROMPT
 PROMPT ================================================
 ```
+
 
