@@ -148,8 +148,14 @@ ALTER SESSION SET CONTAINER = WED_27656_arsene_FlightMS_DB;
 ```
 ![PDB CREATION](https://github.com/user-attachments/assets/dd173ac7-b986-43b7-b585-c46a7bc368af)
 
+##### Dashboard(EM)
 
 
+
+<img width="932" height="413" alt="Dashboard1" src="https://github.com/user-attachments/assets/01112586-2f3c-4a97-8a97-8a27c94e6595" />
+<img width="915" height="412" alt="Dashboard2" src="https://github.com/user-attachments/assets<img width="915" height="412" alt="Dashboard2" src="https://github.com/user-attachments/assets/b3a5ad8a-6118-4c77-858e-d2fa78a36d82" />
+<img width="932" height="413" alt="Dashboard1" src="https://github.com/user-attachments/assets/a762bd5c-517e-4189-b120-a9bf4b50d3cf" />
+/b4937762-91a4-4e70-aa30-f9cc95625665" />
 
 ---
 
@@ -1876,6 +1882,7 @@ ORDER BY
 
 
 =
+
 
 
 
